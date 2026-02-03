@@ -525,9 +525,78 @@ button:focus {
 }
 
 /* ===================================
-   Floating WhatsApp Button
+   Floating Contact Buttons
    =================================== */
 
+/* Phone Button - Top */
+.phone-float {
+  position: fixed;
+  bottom: 220px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #0088cc;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+}
+
+.phone-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+  background-color: #006699;
+}
+
+.phone-float:active {
+  transform: scale(0.95);
+}
+
+.phone-float svg {
+  width: 30px;
+  height: 30px;
+}
+
+/* Instagram Button - Middle */
+.instagram-float {
+  position: fixed;
+  bottom: 120px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+}
+
+.instagram-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+  filter: brightness(1.1);
+}
+
+.instagram-float:active {
+  transform: scale(0.95);
+}
+
+.instagram-float svg {
+  width: 32px;
+  height: 32px;
+}
+
+/* WhatsApp Button - Bottom */
 .whatsapp-float {
   position: fixed;
   bottom: 20px;
@@ -578,13 +647,36 @@ button:focus {
   animation: pulse 2s infinite;
 }
 
-/* Responsive adjustments for floating button */
+/* Responsive adjustments for floating buttons */
 @media screen and (max-width: 767px) {
+  .phone-float,
+  .instagram-float,
   .whatsapp-float {
     width: 55px;
     height: 55px;
-    bottom: 15px;
     right: 15px;
+  }
+  
+  .phone-float {
+    bottom: 200px;
+  }
+  
+  .instagram-float {
+    bottom: 110px;
+  }
+  
+  .whatsapp-float {
+    bottom: 15px;
+  }
+  
+  .phone-float svg {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .instagram-float svg {
+    width: 30px;
+    height: 30px;
   }
   
   .whatsapp-float svg {
