@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bgGradient)"/>
+  
+  <!-- Calendar icon -->
+  <rect x="120" y="80" width="160" height="140" rx="8" fill="#2c3e50"/>
+  <rect x="120" y="80" width="160" height="30" rx="8" fill="#d4af37"/>
+  
+  <!-- Calendar grid -->
+  <line x1="160" y1="120" x2="160" y2="210" stroke="#d4af37" stroke-width="2"/>
+  <line x1="200" y1="120" x2="200" y2="210" stroke="#d4af37" stroke-width="2"/>
+  <line x1="240" y1="120" x2="240" y2="210" stroke="#d4af37" stroke-width="2"/>
+  <line x1="130" y1="150" x2="270" y2="150" stroke="#d4af37" stroke-width="2"/>
+  <line x1="130" y1="180" x2="270" y2="180" stroke="#d4af37" stroke-width="2"/>
+  
+  <!-- Event marker (star) -->
+  <circle cx="200" cy="165" r="15" fill="#d4af37"/>
+  <path d="M200 155 L203 162 L210 163 L205 168 L206 175 L200 171 L194 175 L195 168 L190 163 L197 162 Z" fill="#2c3e50"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="80" cy="100" r="8" fill="#d4af37" opacity="0.3"/>
+  <circle cx="320" cy="180" r="12" fill="#d4af37" opacity="0.3"/>
+  <circle cx="90" cy="220" r="6" fill="#2c3e50" opacity="0.2"/>
+  <circle cx="310" cy="120" r="10" fill="#2c3e50" opacity="0.2"/>
+</svg>

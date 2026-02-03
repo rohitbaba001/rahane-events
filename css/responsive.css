@@ -1,0 +1,425 @@
+/* ===================================
+   Responsive CSS - Catering Services Website
+   Mobile-First Approach with Media Queries
+   =================================== */
+
+/* ===================================
+   Mobile Styles (Base - < 768px)
+   Single column, stacked layout
+   =================================== */
+
+/* Mobile is the default - already defined in styles.css */
+/* Additional mobile-specific overrides if needed */
+
+@media screen and (max-width: 767px) {
+  /* Ensure single column layout on mobile */
+  .services-grid {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md, 1.5rem);
+  }
+  
+  .service-card {
+    width: 100%;
+  }
+  
+  /* Stack phone numbers vertically */
+  .phone-numbers {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .phone-link {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  /* Ensure touch targets are minimum 44x44 pixels */
+  .phone-link,
+  .cta-button,
+  button,
+  a[href^="tel:"] {
+    min-height: 48px;
+    min-width: 48px;
+    padding: 12px 16px;
+  }
+  
+  /* Mobile header adjustments */
+  header {
+    padding: var(--spacing-md, 1.5rem) var(--spacing-sm, 1rem);
+    min-height: 300px;
+  }
+  
+  .logo-container {
+    top: var(--spacing-sm, 1rem);
+    left: var(--spacing-sm, 1rem);
+  }
+  
+  .business-logo {
+    max-width: 100px;
+  }
+  
+  /* Mobile typography adjustments */
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+  }
+  
+  /* Mobile section padding */
+  section {
+    padding: var(--spacing-md, 1.5rem) var(--spacing-sm, 1rem);
+  }
+  
+  /* Videos section - mobile stacked view */
+  .videos-grid {
+    flex-direction: column;
+    gap: var(--spacing-lg, 2rem);
+    max-width: 350px;
+  }
+  
+  .video-card {
+    max-width: 100%;
+  }
+}
+
+/* ===================================
+   Tablet Styles (768px - 1024px)
+   Two-column grid for services
+   =================================== */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Switch to Bac1.jpg for tablet and larger screens */
+  header {
+    background-image: url('../Images/Bac1.jpg');
+    padding: var(--spacing-lg, 2rem) var(--spacing-md, 1.5rem);
+    min-height: 350px;
+  }
+  
+  .logo-container {
+    top: var(--spacing-md, 1.5rem);
+    left: var(--spacing-md, 1.5rem);
+  }
+  
+  .business-logo {
+    max-width: 140px;
+  }
+  
+  /* Two-column grid for services */
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-md, 1.5rem);
+    margin-top: var(--spacing-md, 1.5rem);
+  }
+  
+  .service-card {
+    width: 100%;
+  }
+  
+  /* Optimize service images for tablet */
+  .service-image-container {
+    min-height: 180px;
+  }
+  
+  .service-image {
+    max-height: 220px;
+  }
+  
+  /* Phone numbers in a row with wrapping */
+  .phone-numbers {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--spacing-sm, 1rem);
+  }
+  
+  .phone-link {
+    min-width: 220px;
+    flex: 0 1 auto;
+  }
+  
+  /* Tablet section padding */
+  section {
+    padding: var(--spacing-lg, 2rem) var(--spacing-md, 1.5rem);
+  }
+  
+  /* Hero section adjustments */
+  #hero {
+    padding: var(--spacing-xl, 3rem) var(--spacing-md, 1.5rem);
+  }
+  
+  /* Typography adjustments for tablet */
+  h1 {
+    font-size: 2.25rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  /* Contact section layout */
+  #contact {
+    padding: var(--spacing-xl, 3rem) var(--spacing-md, 1.5rem);
+  }
+  
+  .contact-info,
+  .address {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Ensure touch targets remain adequate */
+  .phone-link,
+  .cta-button,
+  button {
+    min-height: 48px;
+    min-width: 48px;
+  }
+  
+  /* Videos section - tablet view (2-3 videos in row) */
+  .videos-grid {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--spacing-md, 1.5rem);
+    max-width: 100%;
+  }
+  
+  .video-card {
+    max-width: 280px;
+    flex: 0 1 280px;
+  }
+}
+
+/* ===================================
+   Desktop Styles (> 1024px)
+   Multi-column layout
+   =================================== */
+
+@media screen and (min-width: 1025px) {
+  /* Use Bac1.jpg for desktop */
+  header {
+    background-image: url('../Images/Bac1.jpg');
+    padding: var(--spacing-xl, 3rem) var(--spacing-lg, 2rem);
+    min-height: 400px;
+  }
+  
+  .logo-container {
+    top: var(--spacing-lg, 2rem);
+    left: var(--spacing-lg, 2rem);
+  }
+  
+  .business-logo {
+    max-width: 160px;
+  }
+  
+  /* Three-column grid for services on desktop */
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-lg, 2rem);
+    margin-top: var(--spacing-lg, 2rem);
+  }
+  
+  /* If more than 2 services are added, they can expand to 3 columns */
+  .services-grid.three-column {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .service-card {
+    width: 100%;
+  }
+  
+  /* Optimize service images for desktop */
+  .service-image-container {
+    min-height: 200px;
+  }
+  
+  .service-image {
+    max-height: 250px;
+  }
+  
+  /* Phone numbers in a horizontal row */
+  .phone-numbers {
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--spacing-md, 1.5rem);
+  }
+  
+  .phone-link {
+    min-width: 200px;
+    flex: 0 1 auto;
+  }
+  
+  /* Desktop section padding */
+  section {
+    padding: var(--spacing-xl, 3rem) var(--spacing-lg, 2rem);
+  }
+  
+  /* Hero section with more space */
+  #hero {
+    padding: 4rem var(--spacing-lg, 2rem);
+  }
+  
+  /* Typography adjustments for desktop */
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2.25rem;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+  }
+  
+  /* Contact section layout */
+  #contact {
+    padding: var(--spacing-xl, 3rem) var(--spacing-lg, 2rem);
+  }
+  
+  .contact-info,
+  .address {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* About section with better width */
+  .business-info {
+    max-width: 900px;
+  }
+  
+  /* Desktop hover effects enhancement */
+  .service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Ensure adequate click targets (not just touch) */
+  .phone-link,
+  .cta-button,
+  button {
+    min-height: 48px;
+  }
+  
+  /* Videos section - desktop view (3 videos in a row) */
+  .videos-grid {
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--spacing-lg, 2rem);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .video-card {
+    max-width: 320px;
+    flex: 0 1 320px;
+  }
+  
+  /* Desktop footer */
+  footer {
+    padding: var(--spacing-lg, 2rem) var(--spacing-md, 1.5rem);
+  }
+}
+
+/* ===================================
+   Large Desktop Styles (> 1440px)
+   Enhanced spacing and layout
+   =================================== */
+
+@media screen and (min-width: 1441px) {
+  /* Constrain maximum width for very large screens */
+  main {
+    max-width: 1400px;
+  }
+  
+  /* Larger typography for big screens */
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+  }
+  
+  /* More generous spacing */
+  section {
+    padding: 4rem var(--spacing-xl, 3rem);
+  }
+  
+  .services-grid {
+    gap: var(--spacing-xl, 3rem);
+  }
+}
+
+/* ===================================
+   Print Styles
+   =================================== */
+
+@media print {
+  /* Hide interactive elements when printing */
+  .cta-button,
+  .phone-link,
+  #whatsapp-btn {
+    display: none;
+  }
+  
+  /* Ensure good contrast for printing */
+  body {
+    background: white;
+    color: black;
+  }
+  
+  /* Remove shadows and transitions */
+  * {
+    box-shadow: none !important;
+    transition: none !important;
+  }
+  
+  /* Page breaks */
+  section {
+    page-break-inside: avoid;
+  }
+}
+
+/* ===================================
+   Orientation-specific adjustments
+   =================================== */
+
+@media screen and (orientation: landscape) and (max-height: 500px) {
+  /* Reduce vertical padding in landscape mode on small screens */
+  header {
+    padding: var(--spacing-sm, 1rem) var(--spacing-md, 1.5rem);
+  }
+  
+  section {
+    padding: var(--spacing-md, 1.5rem) var(--spacing-sm, 1rem);
+  }
+}
+
+/* ===================================
+   High DPI / Retina Display Support
+   =================================== */
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+       screen and (min-resolution: 192dpi) {
+  /* Ensure images and icons look sharp on retina displays */
+  .business-logo {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+}
