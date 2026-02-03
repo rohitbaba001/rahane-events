@@ -531,7 +531,7 @@ button:focus {
 /* Phone Button - Top */
 .phone-float {
   position: fixed;
-  bottom: 220px;
+  bottom: 160px;
   right: 20px;
   width: 60px;
   height: 60px;
@@ -565,7 +565,7 @@ button:focus {
 /* Instagram Button - Middle */
 .instagram-float {
   position: fixed;
-  bottom: 120px;
+  bottom: 90px;
   right: 20px;
   width: 60px;
   height: 60px;
@@ -658,11 +658,11 @@ button:focus {
   }
   
   .phone-float {
-    bottom: 200px;
+    bottom: 145px;
   }
   
   .instagram-float {
-    bottom: 110px;
+    bottom: 80px;
   }
   
   .whatsapp-float {
