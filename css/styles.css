@@ -131,19 +131,13 @@ header {
   margin: 0;
 }
 
-.business-logo {
-  max-width: 120px;
-  height: auto;
-  display: block;
-  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
-}
-
-.logo-fallback {
+.business-name {
   color: var(--text-light);
   font-size: 1.5rem;
   font-weight: 700;
   margin: 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  max-width: 300px;
 }
 
 /* Remove animated tagline styles as it's no longer needed */
