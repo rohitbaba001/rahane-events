@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://mulgangacaterers.in/</loc>
+    <lastmod>2026-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    
+    <!-- Images -->
+    <image:image>
+      <image:loc>https://mulgangacaterers.in/Images/Logo.png</image:loc>
+      <image:title>Caterer's & Catering Services Logo</image:title>
+      <image:caption>Best Catering Services in Sangamner</image:caption>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://mulgangacaterers.in/Images/event-management.svg</image:loc>
+      <image:title>Event Management Services</image:title>
+      <image:caption>Professional Event Management in Sangamner</image:caption>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://mulgangacaterers.in/Images/catering-service.svg</image:loc>
+      <image:title>Catering Services</image:title>
+      <image:caption>Premium Catering Services in Sangamner</image:caption>
+    </image:image>
+    
+    <!-- Videos -->
+    <video:video>
+      <video:thumbnail_loc>https://mulgangacaterers.in/Images/video-thumb-1.jpg</video:thumbnail_loc>
+      <video:title>Wedding Catering Services in Sangamner</video:title>
+      <video:description>Professional wedding catering services by Kishor Rahane</video:description>
+      <video:content_loc>https://mulgangacaterers.in/videos/video1.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    
+    <video:video>
+      <video:thumbnail_loc>https://mulgangacaterers.in/Images/video-thumb-2.jpg</video:thumbnail_loc>
+      <video:title>Event Management Services in Sangamner</video:title>
+      <video:description>Complete event management and coordination services</video:description>
+      <video:content_loc>https://mulgangacaterers.in/videos/video2.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    
+    <video:video>
+      <video:thumbnail_loc>https://mulgangacaterers.in/Images/video-thumb-3.jpg</video:thumbnail_loc>
+      <video:title>Corporate Event Catering in Sangamner</video:title>
+      <video:description>Professional corporate event catering services</video:description>
+      <video:content_loc>https://mulgangacaterers.in/videos/video3.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  
+  <!-- Services Section -->
+  <url>
+    <loc>https://mulgangacaterers.in/#services</loc>
+    <lastmod>2026-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- About Section -->
+  <url>
+    <loc>https://mulgangacaterers.in/#about</loc>
+    <lastmod>2026-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Contact Section -->
+  <url>
+    <loc>https://mulgangacaterers.in/#contact</loc>
+    <lastmod>2026-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Videos Section -->
+  <url>
+    <loc>https://mulgangacaterers.in/#videos</loc>
+    <lastmod>2026-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+</urlset>

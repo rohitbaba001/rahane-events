@@ -1,0 +1,182 @@
+{
+  "business": {
+    "name": "Caterer's & Catering Services",
+    "alternateName": "Kishor Rahane Caterers",
+    "owner": "Prop. Kishor Dagadu Rahane",
+    "established": "2015",
+    "type": "Catering and Event Management",
+    "description": "Premium catering and event management services in Sangamner, Maharashtra. Specializing in wedding catering, corporate events, and party services with years of experience.",
+    
+    "contact": {
+      "primaryPhone": "+917058737587",
+      "secondaryPhones": ["+919890707768", "+919049299981"],
+      "email": "info@mulgangacaterers.in",
+      "whatsapp": "+917058737587",
+      "website": "https://mulgangacaterers.in"
+    },
+    
+    "address": {
+      "street": "Sayyed Baba Chowk, Delhi Naka",
+      "city": "Sangamner",
+      "district": "Ahmednagar",
+      "state": "Maharashtra",
+      "postalCode": "422605",
+      "country": "India",
+      "coordinates": {
+        "latitude": "19.5645",
+        "longitude": "74.2107"
+      }
+    },
+    
+    "services": [
+      {
+        "name": "Wedding Catering",
+        "description": "Complete wedding catering services with customizable menus, traditional and modern cuisine options",
+        "keywords": ["wedding catering", "marriage catering", "vivah catering", "लग्न कॅटरिंग"]
+      },
+      {
+        "name": "Event Management",
+        "description": "Professional event planning and coordination for all types of celebrations",
+        "keywords": ["event management", "party planning", "celebration coordination", "कार्यक्रम व्यवस्थापन"]
+      },
+      {
+        "name": "Corporate Catering",
+        "description": "Business event catering, conferences, meetings, and corporate parties",
+        "keywords": ["corporate catering", "business events", "conference catering", "office parties"]
+      },
+      {
+        "name": "Birthday Parties",
+        "description": "Birthday party catering and decoration services",
+        "keywords": ["birthday catering", "party catering", "celebration catering"]
+      },
+      {
+        "name": "Anniversary Celebrations",
+        "description": "Special catering for anniversary celebrations and family gatherings",
+        "keywords": ["anniversary catering", "family gathering", "celebration catering"]
+      }
+    ],
+    
+    "serviceArea": {
+      "primary": "Sangamner",
+      "secondary": ["Ahmednagar", "Kopargaon", "Shirdi", "Rahata", "Newasa"],
+      "radius": "50km"
+    },
+    
+    "cuisine": [
+      "Maharashtrian",
+      "North Indian",
+      "South Indian",
+      "Chinese",
+      "Continental",
+      "Multi-Cuisine"
+    ],
+    
+    "specialties": [
+      "Traditional Maharashtrian Wedding Menu",
+      "Customizable Menus",
+      "Live Counters",
+      "Professional Service Staff",
+      "Decoration Services",
+      "Complete Event Management"
+    ],
+    
+    "operatingHours": {
+      "monday": "09:00-21:00",
+      "tuesday": "09:00-21:00",
+      "wednesday": "09:00-21:00",
+      "thursday": "09:00-21:00",
+      "friday": "09:00-21:00",
+      "saturday": "09:00-21:00",
+      "sunday": "09:00-21:00",
+      "note": "Available 24/7 for event bookings and emergencies"
+    },
+    
+    "socialMedia": {
+      "instagram": "https://www.instagram.com/the_rahane_events",
+      "facebook": "",
+      "youtube": "",
+      "linkedin": ""
+    },
+    
+    "seo": {
+      "primaryKeywords": [
+        "catering services sangamner",
+        "wedding caterers sangamner",
+        "event management sangamner",
+        "best caterers sangamner",
+        "kishor rahane caterers"
+      ],
+      "secondaryKeywords": [
+        "corporate catering sangamner",
+        "party catering sangamner",
+        "wedding catering maharashtra",
+        "sangamner event planners",
+        "catering services near me",
+        "affordable caterers sangamner"
+      ],
+      "marathiKeywords": [
+        "संगमनेर कॅटरिंग सेवा",
+        "विवाह कॅटरिंग संगमनेर",
+        "कार्यक्रम व्यवस्थापन संगमनेर",
+        "संगमनेर मधील सर्वोत्तम कॅटरर्स"
+      ],
+      "longTailKeywords": [
+        "best wedding caterers in sangamner",
+        "affordable catering services sangamner",
+        "top event management companies sangamner",
+        "professional caterers near sangamner",
+        "wedding catering packages sangamner"
+      ]
+    },
+    
+    "competitors": {
+      "local": [
+        "Other catering services in Sangamner",
+        "Event management companies in Ahmednagar"
+      ],
+      "keywords_to_target": [
+        "better than [competitor name]",
+        "alternative to [competitor name]",
+        "best caterer sangamner"
+      ]
+    },
+    
+    "testimonials": [
+      {
+        "text": "Excellent service and delicious food. Made our wedding memorable!",
+        "author": "Customer",
+        "rating": 5,
+        "event": "Wedding"
+      },
+      {
+        "text": "Professional team and great coordination. Highly recommended!",
+        "author": "Customer",
+        "rating": 5,
+        "event": "Corporate Event"
+      }
+    ],
+    
+    "faqs": [
+      {
+        "question": "What areas do you serve?",
+        "answer": "We primarily serve Sangamner and surrounding areas including Ahmednagar, Kopargaon, Shirdi, Rahata, and Newasa within 50km radius."
+      },
+      {
+        "question": "Do you provide customizable menus?",
+        "answer": "Yes, we offer fully customizable menus to suit your preferences, dietary requirements, and budget."
+      },
+      {
+        "question": "How far in advance should I book?",
+        "answer": "We recommend booking at least 2-3 months in advance for weddings and 2-4 weeks for other events."
+      },
+      {
+        "question": "Do you handle both catering and decoration?",
+        "answer": "Yes, we provide complete event management services including catering, decoration, and coordination."
+      },
+      {
+        "question": "What types of cuisine do you offer?",
+        "answer": "We specialize in Maharashtrian cuisine and also offer North Indian, South Indian, Chinese, and Continental options."
+      }
+    ]
+  }
+}
