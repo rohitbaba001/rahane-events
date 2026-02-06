@@ -19,6 +19,16 @@ Your website now has:
 
 ### 1. Google Business Profile (15 min)
 👉 Go to: https://business.google.com
+
+**If you ALREADY have a Google Business Profile with reviews:**
+- ✅ Log in and claim/verify ownership
+- ✅ Add your website: `https://mulgangacaterers.in`
+- ✅ Update all business information
+- ✅ Respond to existing reviews
+- ✅ Add more photos (20+ recommended)
+- ✅ Add services and attributes
+
+**If you DON'T have a profile yet:**
 - Create/claim your business
 - Add: Caterer's & Catering Services
 - Location: Sayyed Baba Chowk, Delhi Naka, Sangamner 422605
@@ -26,6 +36,8 @@ Your website now has:
 - Category: Caterer
 
 **This is THE MOST IMPORTANT step!**
+
+💡 **Pro Tip:** If you already have reviews, you're ahead! Just link your new website and keep getting more reviews.
 
 ---
 
